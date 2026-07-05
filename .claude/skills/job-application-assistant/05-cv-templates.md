@@ -39,7 +39,7 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Spencer Stern - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.77]{geometry}
@@ -106,11 +106,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Product Analyst / Experimentation roles:**
+> Nine years at one of the UK's largest digital publishers, progressing from content and operations into product analytics and experimentation, with the last four years focused on A/B testing, funnel analysis, and data-driven product decisions across a 65+ site portfolio. Experienced in designing experiments end-to-end, from painted-door tests to post-hoc statistical readouts, and in translating noisy or contested results into confident go/iterate/stop recommendations for product and design stakeholders.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Founder / Solo Builder / Generalist Product roles:**
+> Nine years of experimentation and product analytics experience at a major digital publisher, combined with hands-on experience building a three-property consumer product from zero as a solo founder: product, engineering, SEO, growth, and ecommerce, without external funding or a team. Works best in fast-moving environments where breadth of execution matters as much as depth in one function.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

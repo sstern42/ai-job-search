@@ -2,49 +2,47 @@
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No formal assessment has been provided yet. The sections below are inferred from LinkedIn About text and CV framing - review and refine once you have a formal assessment. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Spencer's available signal (LinkedIn About, CV framing) identifies a **clarity-under-change operator** pattern: someone repeatedly sought out during leadership gaps, stalled experimentation, or conflicting metrics, whose value is restoring decision confidence quickly rather than building long-term systems. *[Inferred from LinkedIn About - review before relying on this]*
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Autonomy | High | Built a three-property product solo without external funding or a team; prefers ambiguous ownership gaps as the expectation, not the exception |
+| Analytical rigor | High | Nine years of experiment analysis; explicit focus on separating signal from variance in noisy data |
+| Structure-seeking under ambiguity | High | Repeatedly asked to restore process (newsletters, Kanban, show-and-tell) during unstructured periods, rather than just executing tasks |
+| Long-horizon system-building | Lower priority | Self-describes: "my focus is not building perfect systems or long-term frameworks" - prefers bounded, immediate-impact engagements |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Interim leadership under pressure:** Stepped into a six-month Experimentation Manager gap and kept delivery on track while also helping recruit a permanent replacement *[Inferred from LinkedIn About]*
+- **Rapid signal extraction:** Diagnoses KPI conflicts and restores trust in metrics under tight timeframes *[Inferred from LinkedIn About]*
+- **Solo full-stack execution:** Builds and ships product, engineering, SEO, growth, and ecommerce work end-to-end without a team
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Fixed-term or interim roles where scope is clear and the timeline is bounded *[Inferred from LinkedIn About]*
+- Fast-moving environments where the founder/lead needs a reliable "second brain"
+- Roles where breadth of execution matters as much as depth in one function
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Long-term system-building:** Self-described preference for bounded engagements over building lasting frameworks - frame as "delivers immediate, usable impact and hands off cleanly" rather than "avoids ownership."
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "fast-paced," "ambiguity," "ownership," "interim," "fixed-term," "experimentation culture," "data-driven decisions"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "long-term roadmap ownership," "multi-year strategic planning," "heavily process-bound / bureaucratic"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works best with a clear mandate and bounded scope from leadership, then high autonomy to execute *[Inferred from LinkedIn About]*
+- Likely friction with highly bureaucratic, slow-decision environments given the stated preference for immediate impact
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with the "brought in for clarity during change" framing when the posting signals ambiguity, a leadership gap, or a stalled initiative
+- **CV:** Emphasize the interim Experimentation Manager stint and the solo founder build as evidence of high-ownership execution
+- **Interviews:** Use the interim leadership STAR example and the painted-door-experiment STAR example to demonstrate structured thinking under ambiguity
+- **Don't overstate:** These traits are inferred from LinkedIn copy, not a formal assessment - avoid quoting them as if they were psychometric results in an interview

@@ -10,28 +10,35 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Populated as stubs from CV/LinkedIn material during /setup. Fill in the S/T/A/R detail from memory before relying on these in an interview. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Painted door experiment for subscription appetite (A/B testing / product analytics)
+**S:** Paywall strategy teams at Reach plc had no concrete demand signal for whether readers would pay for subscriptions at a segment level.
+**T:** Design an experiment that would quantify subscription appetite without building the actual paid product.
+**A:** [FILL IN - specific experiment design, tools used, segments tested, how the "painted door" was implemented]
+**R:** Provided paywall strategy teams with concrete demand signals where none had previously existed.
+**Use for:** "Tell me about a time you designed an experiment from scratch", "How do you validate demand before building a feature?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Stepping into the interim Experimentation Manager gap (leadership under ambiguity)
+**S:** A six-month leadership gap opened in the Experimentation Manager role at Reach plc.
+**T:** Maintain the experimentation programme's momentum and delivery while continuing individual-contributor work, and help recruit a permanent replacement.
+**A:** Kept test delivery on track, led stakeholder communication, and introduced a team newsletter, show-and-tell sessions, cross-functional ideation, and a Kanban workflow for the analyst team. [FILL IN - specifics of how the newsletter/Kanban were introduced, any resistance faced]
+**R:** Programme continued without disruption; assisted in scoping and recruiting a permanent Experimentation Manager.
+**Use for:** "Tell me about a time you stepped up into a leadership gap", "How do you handle ambiguity?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Launching Socion solo in under 8 weeks (ownership / execution breadth)
+**S:** Wanted to build and validate a Socionics-based matching app with no external funding, team, or development resource.
+**T:** Design, build, and launch a full-stack product covering product, engineering, growth, and community, solo.
+**A:** Built a full-stack PWA in React + Vite with Supabase (Postgres, real-time, edge functions) and Netlify, including auth, push notifications, real-time features, and admin tooling. Designed the acquisition loop across Reddit, Discord, email (MailerLite), and a Product Hunt launch. [FILL IN - specific prioritization decisions, biggest technical or growth challenge]
+**R:** Live in under 8 weeks; reached 105 members, 187 connections, 3,773 messages within 18 days; 4.7/5 average rating; 1,160 unique visitors in the first 30 days.
+**Use for:** "Tell me about a project you owned end-to-end", "Describe a time you had to wear multiple hats"
+
+### 4. Migrating 30 websites to a new platform in 6 weeks (delivery under time pressure)
+**S:** Trinity Mirror (now Reach plc) needed to migrate major news brand websites to a new responsive platform.
+**T:** Co-lead the migration of 30 websites within a 6-week window, then extend rollout to 20+ further sites.
+**A:** [FILL IN - specific coordination approach, tools/CMS used (Escenic), how risks were managed across brands]
+**R:** Migration completed in 6 weeks; rollout successfully extended to 20+ further sites in the following 6 months.
+**Use for:** "Tell me about a time you delivered a large project under a tight deadline", "How do you manage multi-stakeholder technical delivery?"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

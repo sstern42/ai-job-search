@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Spencer Stern
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Spencer Stern, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +16,75 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Spencer Stern
+- **Location:** Aldersbrook, London, E12, UK (London-based; open to remote; willing to commute hybrid into London)
+- **Languages:** English (Native/Bilingual)
+- **Status:** Founder (Socion & Socionics Insight, Feb 2026-present); actively seeking Product Analyst / Experimentation Manager roles
+- **LinkedIn headline:** "Founder, Socion & Socionics Insight | Author · Product & Experimentation Analyst"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.Sc. (Hons) in Multimedia Technology & Applications (2:1)** (2000-2003) - London Metropolitan University
+  - Thesis: "Investigating The Decline Of Student Takeup In Physics And How Multimedia Can Be Used To Re-Engage Students"
+  - Topics: multimedia technology, educational engagement, applied research methods
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Founder** (Feb 2026 - Present) - **Socion & Socionics Insight** (London)
+  - Designed and shipped a full-stack PWA solo (React + Vite, Supabase, Netlify) from zero to live in under 8 weeks
+  - Reached 105 members, 187 connections, 3,773 messages within 18 days of launch; 4.7/5 average rating
+  - Built and grew socionicsinsight.com (350+ pages) to ~37x Search Console impression growth in 26 days via SEO and schema markup
+- **Senior Data Analyst** (Sep 2023 - Jun 2025) - **Reach plc** (London)
+  - Owned end-to-end experiment analysis across 65+ national and regional news sites
+  - Designed a painted door experiment quantifying subscription appetite at segment level
+  - Contributed to a ~5% uplift in yearly pageviews worth an estimated £50K+ in incremental ad revenue
+- **Experimentation Manager (interim)** (Jun 2022 - Nov 2022) - **Reach plc** (London)
+  - Stepped into a six-month leadership gap, kept test delivery on track, and introduced practices (team newsletter, show-and-tell sessions, Kanban workflow) to sustain experimentation culture
+- **Data Analyst** (May 2021 - Aug 2023) - **Reach plc** (London)
+  - Evaluated 10-20 experiments per month via BigQuery (feature/cosmetic tests) and a first-party AWS platform (AI/ML tests)
+  - Analysed the Bookmark feature rollout, which shipped and remains live today; built Looker Studio dashboards for experiment readouts
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** A/B experimentation, funnel analysis, KPI diagnostics, SQL (BigQuery, Athena, CTEs, window functions, retention cohorts)
+- **Secondary:** React, Vite, Supabase, SEO, email marketing (MailerLite), GrowthBook, Looker Studio, GA4, Amplitude
+- **Domain:** Digital publishing / consumer news product analytics, experimentation programme design and governance
+- **Software:** BigQuery, Athena, Looker Studio, GrowthBook, Shopify, GitHub, Jira, Umami, Canva, Descript
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Certificate in Enterprise Mentoring** - Institute of Enterprise and Entrepreneurs (IOEE), member
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Stern, S. Your Social World Explained (non-fiction, Socionics)
+- Stern, S. Socionics Made Simple (16-volume eBook series)
+- Stern, S. Escaping the Vulture's Shadow (memoir)
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- (none listed yet - add if applicable)
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Clarity-under-change operator** - Brought in during leadership gaps, stalled experimentation, or conflicting metrics to restore decision confidence *[Inferred from LinkedIn About - review before relying on this]*
+- **High-ownership, bounded-scope preference** - Works best in fixed-term/interim roles with clear scope and bounded timeline, expecting immediate impact rather than long-term system-building *[Inferred from LinkedIn About]*
+- **Strengths:** Pattern-finding in ambiguous or noisy data, solo end-to-end execution (product, engineering, growth), concise stakeholder-facing writing
+- **Growth areas:** Not yet formally assessed - add if you complete a PI/DISC/StrengthsFinder assessment
+- **Thrives in:** Fast-moving environments where breadth of execution matters as much as depth, and stepping into ambiguous ownership gaps is expected
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Running and interpreting A/B tests and experimentation programmes
+- Turning noisy or contested data into clear, confident product decisions
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Digital publishing / consumer product: Reach plc-style portfolios, media and content platforms
+- Consumer tech / product-led growth companies with an active experimentation culture
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- (none specified yet - flag any that surface, e.g. no experimentation culture, pure maintenance work)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

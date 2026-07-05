@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Spencer Stern
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Spencer Stern - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Spencer}{Stern}
+\address{Aldersbrook, London, E12, UK}{}{}
+\phone[mobile]{+44 7980 788488}
+\email{spencer.stern@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/spencerstern}{LinkedIn}, \href{https://spencerstern.com}{Portfolio}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Nine years at one of the UK's largest digital publishers, progressing from content and operations into product analytics and experimentation, with the last four years focused on A/B testing, funnel analysis, and data-driven product decisions across a 65+ site portfolio. In parallel, built a three-property consumer product from zero as a solo founder: product, engineering, SEO, growth, and ecommerce, without external funding or a team.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{A/B Experimentation}: Designed and evaluated 10-20 experiments per month across a 65+ site portfolio; painted door tests, feature and cosmetic A/B tests, post-hoc statistical analysis.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Funnel \& KPI Analysis}: BigQuery and Athena for diagnosing funnel drop-offs; SQL (CTEs, window functions, retention cohorts) to surface product opportunities ahead of roadmap discussions.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Stakeholder Communication}: Translated noisy, contested experimental results into concise written go/iterate/stop recommendations for product managers, designers, and senior stakeholders.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Product \& Growth}: SEO, email marketing (MailerLite), community growth, GrowthBook, GA4, Amplitude, Looker Studio.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Full-Stack Execution}: React, Vite, Supabase (Postgres, edge functions, real-time), Netlify, Cloudflare, Shopify.
 
 \end{itemize}
 
@@ -77,31 +76,32 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2026--Present}{Founder}{Socion \& Socionics Insight}{London, UK}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Designed and shipped a full-stack PWA solo in React + Vite with Supabase and Netlify, from zero to live in under eight weeks with no external development resource
+    \item Reached 105 members, 187 connections, and 3,773 messages within 18 days of launch; 4.7/5 average user rating; 1,160 unique visitors in the first 30 days
+    \item Built and maintained a 350+ page Eleventy reference site; grew Search Console impressions approximately 37x over 26 days through on-page SEO and schema markup
+    \item Designed and launched a Shopify print-on-demand store, using the reference site's organic search traffic as the primary acquisition channel
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2023--2025}{Senior Data Analyst}{Reach plc}{London, UK}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Owned end-to-end experiment analysis across 65+ national and regional news sites, contributing to a ~5\% uplift in yearly pageviews worth an estimated £50K+ in incremental ad revenue
+    \item Designed a painted door experiment to quantify subscription appetite at segment level, providing paywall strategy teams with concrete demand signals
+    \item Queried BigQuery and Athena to diagnose funnel drop-offs and surface product opportunities ahead of roadmap discussions
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2021--2023}{Data Analyst \& Experimentation Manager (interim)}{Reach plc}{London, UK}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Evaluated 10-20 experiments per month using BigQuery and a first-party AWS platform for AI/ML-based experiments
+    \item Stepped into a six-month Experimentation Manager leadership gap, kept test delivery on track, and introduced a team newsletter, show-and-tell sessions, and a Kanban workflow
+    \item Analysed the rollout of a Bookmark feature that shipped and remains live today
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +114,8 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2000--2003}{B.Sc. (Hons) Multimedia Technology \& Applications (2:1)}{London Metropolitan University}{London, UK}{}{\vspace{1pt}
+Thesis: ``Investigating The Decline Of Student Takeup In Physics And How Multimedia Can Be Used To Re-Engage Students.''
 }}
 
 \end{itemize}
@@ -133,7 +127,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (native).
 \end{itemize}
 
 % ============================================================
@@ -143,7 +137,8 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Stern, S. Your Social World Explained. (non-fiction, Socionics)
+\item Stern, S. Socionics Made Simple. (16-volume eBook series)
 \end{itemize}
 
 % ============================================================
@@ -153,7 +148,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Certificate in Enterprise Mentoring} -- Institute of Enterprise and Entrepreneurs (IOEE).}
 \end{itemize}
 
 % ============================================================

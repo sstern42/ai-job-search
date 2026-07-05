@@ -1,70 +1,70 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- SETUP: Customized for UK-based search. The framework's built-in portal CLI tools (jobbank-search,
+     jobdanmark-search, jobindex-search, jobnet-search) are Denmark-specific and not used here. Search
+     relies on the country-agnostic linkedin-search tool plus Google site: searches for Indeed. -->
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Primary (UK job market):
+- **linkedin-search** (`.agents/skills/linkedin-search`) - country-agnostic LinkedIn jobs-guest tool; use `-l "London, England, United Kingdom"` or `-l "Remote"`
+- **indeed.co.uk** - via Google `site:` searches (no dedicated CLI tool; use WebSearch/Google site-search)
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries are grouped by priority. Each query should be combined with location terms ("London", "Remote", "Hybrid") where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Product Analyst
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match the strongest and most desired career direction, with emphasis on A/B testing and experimentation.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+linkedin-search "Product Analyst" -l "London, England, United Kingdom"
+linkedin-search "Product Analyst" -l "Remote"
+site:indeed.co.uk "Product Analyst" "A/B testing" London
+site:linkedin.com/jobs "Product Analyst" "experimentation" London
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Experimentation & A/B Testing
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match the domain expertise directly: nine years of experimentation analysis at scale.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+linkedin-search "Experimentation Manager" -l "London, England, United Kingdom"
+linkedin-search "Experimentation Analyst" -l "Remote"
+site:indeed.co.uk "Experimentation Manager" London OR Remote
+site:indeed.co.uk "A/B testing" analyst London
+```
+
+### Priority 3: Adjacent Roles
+
+Adjacent roles to widen the search net without moving off the core direction.
+
+```
+linkedin-search "Senior Data Analyst" "experimentation" -l "London, England, United Kingdom"
+linkedin-search "Growth Analyst" -l "London, England, United Kingdom"
+site:indeed.co.uk "Data Analyst" "A/B testing" London
+```
+
+### Priority 4: Broader Product / Growth
+
+Wider net for roles that draw on the founder/full-stack background as a differentiator.
+
+```
+linkedin-search "Product Manager" "data-driven" -l "London, England, United Kingdom"
+site:indeed.co.uk "Growth" "Product Analyst" Remote
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from Aldersbrook, London E12, or is remote. Define acceptable areas:
+- London and Greater London: PASS
+- Remote (UK-based or fully remote): PASS
+- Hybrid roles requiring occasional office attendance in London: PASS
+- Outside London requiring full relocation: FAIL (deal-breaker)
 
 ## Date Filter
 

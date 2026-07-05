@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** A/B testing and experimentation design, funnel analysis, SQL (BigQuery, Athena), KPI diagnostics, experiment readouts for product/stakeholder audiences
+**Moderate match areas:** Product analytics tooling (GA4, Amplitude, Looker Studio, GrowthBook), SEO/growth, full-stack development (React, Supabase)
+**Weak match areas:** Formal statistics/data science credentials, Python/R for statistical modeling, product management ownership of a roadmap
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Product Analyst / Experimentation Analyst roles, especially at consumer digital / publishing companies running large-scale A/B testing programmes
+**Moderate:** Product Manager, Growth roles, Interim/Contract analytics leadership
+**Entry-level:** Formal data science / ML engineering roles (transferable analytical skill, but no ML modeling background)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,9 +47,8 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- London-based, hybrid, or remote: PASS
+- Requires relocation outside the UK: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -63,19 +62,18 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a Product Analyst role with a substantial A/B testing / experimentation component
+- Stay open to Experimentation Manager roles (permanent or interim) as an adjacent strong fit
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Designing and running A/B tests, funnel analysis, turning noisy/contested data into clear recommendations
+- Tasks that drain: Pure maintenance work with no experimentation component, long-term roadmap ownership disconnected from data
+- Non-task factors: degree of autonomy, presence of an active experimentation culture, pace of decision-making
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Target salary baseline of £50,000
+- **Flexibility**: London-based; open to remote; willing to commute hybrid into London
+- **Professional development**: Growing depth in A/B testing and experimentation methodology is the current priority
 
 ### 6. Salary Benchmark (Optional)
 
@@ -95,7 +93,7 @@ Present findings as:
 | Overall index | XX.X (+/-X.X% vs baseline) |
 ```
 
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
+Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation. Target baseline for comparison: **£50,000**.
 
 If the salary tool is not configured, skip this section.
 
