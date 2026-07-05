@@ -46,7 +46,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Technical Skills
 - **Primary:** A/B experimentation, funnel analysis, KPI diagnostics, SQL (BigQuery, Athena, CTEs, window functions, retention cohorts)
-- **Secondary:** React, Vite, Supabase, SEO, email marketing (MailerLite), GrowthBook, Looker Studio, GA4, Amplitude
+- **Secondary:** React, Vite, Supabase, SEO, email marketing (MailerLite), GrowthBook, Looker Studio, GA4, Amplitude, Python (AI-assisted via GitHub Copilot), Claude Code (used extensively to build Socion and Socionics Insight solo)
 - **Domain:** Digital publishing / consumer news product analytics, experimentation programme design and governance
 - **Software:** BigQuery, Athena, Looker Studio, GrowthBook, Shopify, GitHub, Jira, Umami, Canva, Descript
 

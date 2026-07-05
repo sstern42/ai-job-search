@@ -89,6 +89,8 @@ London Area
 
 ### Software & Tools
 - GrowthBook, Shopify, GitHub, Jira, Canva, Descript, Looker Studio, GA4, Amplitude, Umami, ServiceNow, Confluence
+- **Python** (AI-assisted, via GitHub Copilot): scripting and light analysis; not a primary language
+- **Claude Code**: used extensively as the agentic coding tool to build Socion (React/Vite/Supabase full-stack app) and Socionics Insight solo
 
 ## Publications
 <!-- List peer-reviewed publications, if any -->
